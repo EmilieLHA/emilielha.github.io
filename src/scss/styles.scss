@@ -1,0 +1,47 @@
+$primary: #316455;
+$secondary: #2E5F52;
+$light: #FEF2DA;
+
+$headings-font-weight: 900;
+$headings-font-family: 'Roboto', sans-serif;
+
+body {
+    min-height: 100vh;
+    background: rgb(26,51,51);
+    background: linear-gradient(0deg, rgba(26,51,51,1) 0%, rgba(49,100,85,1) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+p ul {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+    background: center no-repeat url(./img/biomass-pellet-landscape.jpg); 
+    background-size:cover; 
+    height: 80vh; 
+    background-position: center;
+}
+
+.shadowedTitle {
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.box {
+    background-color: $light;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@import 'bootstrap';
+
+@include media-breakpoint-down(lg) {
+    .hero {
+    background: center no-repeat url(./img/biomass-pellet-industry-landscape-mobile.png);
+    background-size:cover; 
+    height: 80vh; 
+    background-position: center;
+    }
+  }

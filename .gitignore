@@ -1,0 +1,36 @@
+# Ignore build artifacts
+build/
+*.exe
+*.dll
+
+# Ignore dependencies
+node_modules/
+vendor/
+.vite/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore compiled output
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore database files
+*.db
+*.sqlite
+*.db3
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
